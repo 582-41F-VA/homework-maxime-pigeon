@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Section title",
+		"cards": [
+			{
+				"src": "https://examplecat.com/cat.png",
+				"alt": "Drawing of a cat.",
+				"name": "Cat poster",
+				"price": 15,
+				"Description": "Very nice drawing of a cat on canvas."
+			}
+		]
+	}
+]

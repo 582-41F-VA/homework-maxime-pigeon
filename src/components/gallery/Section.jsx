@@ -1,6 +1,6 @@
 import Card from "./Card.jsx";
 
-export default function Section({ cards }) {
+export default function Section({ title, cards }) {
 	const cardsMarkup = cards.map((card) => (
 		<Card
 			src={card.src}
@@ -12,7 +12,7 @@ export default function Section({ cards }) {
 	));
 	return (
 		<section>
-			<h2>Section</h2>
+			<h2>{title}</h2>
 			{cardsMarkup}
 		</section>
 	);
